@@ -1,0 +1,9 @@
+.arrow-container {
+    padding: 0;
+}
+
+button.btn.arrow {
+    border-radius: 0;
+    border-color: #222;
+    width: 100%
+}
