@@ -17,8 +17,7 @@ actions = {"stop": robot.standby,
 
 @app.route('/')
 def index():
-
-    return render_template('index.html', name=url_for('static', filename="css/boostrap.min.css"))
+    return render_template('index.html')
 
 
 @app.route('/action/<action>', methods=["GET", "POST"])
